@@ -19,7 +19,7 @@ router.get("/outreach",function(req, res){
 });
 
   router.get("/events",function(req, res){
-    res.sendFile(path + "resources.html");
+    res.sendFile(path + "events.html");
 });
   
 router.get("/ftc",function(req, res){
