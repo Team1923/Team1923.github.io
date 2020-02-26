@@ -34,7 +34,7 @@ router.get("/resources",function(req, res){
   res.sendFile(path + "resources.html");
 });
 
-app.use(express.static(__dirname + '/static'));
+app.use(express.static(__dirname + '/public'));
 
 app.use("*",function(req, res){
     res.send("Error 404: Not Found!");
