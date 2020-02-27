@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>MidKnight Inventors</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
   </head>
   <body>
     <!-- Navbar -->
@@ -44,6 +45,9 @@
             <a class="nav-link" href="/fll">FLL</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link" href="/events">Events</a>
+            </li>
+          <li class="nav-item">
             <a class="nav-link" href="/media">Media</a>
           </li>
           <li class="nav-item">
@@ -58,7 +62,7 @@
     <ul class="navbar-nav ml-auto">
       
       <li class="nav-item">
-          <a class="nav-link" href="/donate">Team Archive</a>
+          <a class="nav-link" href="/archive">Team Archive</a>
         </li>
       <li class="nav-item">
         <button class="btn btn-outline-primary shadow-sm">Resources</button>
@@ -68,13 +72,13 @@
     </div>
   </nav>
 
-    
+    <!-- End of Navbar -->
         
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="images/chairmansvid.mp4" type="video/mp4">
         </video>
-      <h1 id="landing-title"> MidKnight Inventors</h1>
-      <h3 id="landing-caption">FRC Team 1923</h3>
+      <h1 id="landing-title">The MidKnight Inventors</h1>
+      <h3 id="landing-caption">First Robotics Competition Team 1923</h3>
       <div class="col text-center">
         <button id="action-btn" class="btn btn-outline-primary shadow">CTA here</button>
       </div>
@@ -85,7 +89,37 @@
     
     <!-- <p id="hook">Filling in the gap between school and the real world for over 2 years</p> -->
     
+    <div id="our-robots">
+        <h1 id="our-robots-title">Our Robots</h1>
+
+        <div class="card-deck">
+            <div class="card text-white bg-dark">
+              <img class="card-img-top" src="images/knightshade.jpeg" height="300" alt="Card image cap">
+              
+                <h4 class="card-title">KnightShade</h4>
         
+              <div class="card-footer">
+                <small class="text-muted">2019: Deep Space</small>
+              </div>
+            </div>
+            <div class="card text-white bg-dark">
+              <img class="card-img-top" src="images/blackout.jpeg" alt="Card image cap">
+                <h4 class="card-title">Blackout</h4>
+              <div class="card-footer">
+                <small class="text-muted">2018: Power Up</small>
+              </div>
+            </div>
+            <div class="card text-white bg-dark">
+              <img class="card-img-top" src="images/knightmare.png" height="300" alt="Card image cap">
+              
+                <h4 class="card-title">KnightMare</h4>
+                
+              <div class="card-footer">
+                <small class="text-muted">2016: Stronghold</small>
+              </div>
+            </div>
+          </div>
+    </div>    
     <div id="about-us">
         <h1 id="about-us-title" class="about-us-class">Who Are We? 1923!</h1>
         <hr>
@@ -101,8 +135,10 @@
               </div>
             </div>
               <div id="fun-facts">
+               
                   <h1 id="fun-facts-title" class="fun-facts-class">Fun Facts!</h1>
-                  <hr>
+                  <br>
+                
                   <div class="row">
                       <div class="col">
                           <ul>

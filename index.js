@@ -33,6 +33,20 @@ router.get("/fll",function(req, res){
 router.get("/resources",function(req, res){
   res.sendFile(path + "resources.html");
 });
+router.get("/archive",function(req, res){
+  res.sendFile(path + "archive.html");
+});
+
+router.get("/media",function(req, res){
+  res.sendFile(path + "sponsors.html");
+});
+
+router.get("/sponsors",function(req, res){
+  res.sendFile(path + "sponsors.html");
+});
+router.get("/events",function(req, res){
+  res.sendFile(path + "events.html");
+});
 
 app.use(express.static(__dirname + '/public'));
 
