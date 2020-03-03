@@ -11,69 +11,70 @@
   <link rel="stylesheet" type="text/css" href="css/home.css">
   </head>
   <body>
+      <div id="landing-container" class="landing-container">
     <!-- Navbar -->
-    <div id="landing-container" class="wave-container">
-  <!-- Navbar Branding -->
-  <nav id="navbar-container" class="navbar navbar-expand-lg navbar-dark sticky-top mr-auto" style="background-color: transparent">
+    <div id="navbar-container"> 
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top mr-auto" style="background-color: transparent">
 
-      <div id="nav-logo">
-          <a class="navbar-brand" href="/" >
-              <img src="images/blacklogo.png" width="50" height="50" class="d-inline-block align-top" alt="">
-             
-            </a>
-      </div>
-  
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <!-- Navbar Items-->
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav">
-  
-          <li class="nav-item">
-            <a class="nav-link" href="/outreach">Outreach</a>
-          </li>
-  
-          <li class="nav-item">
-            <a class="nav-link" href="/business">Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/ftc">FTC</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/fll">FLL</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="/events">Events</a>
+        <div id="nav-logo">
+            <a class="navbar-brand" href="/" >
+                <img src="images/blacklogo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+               
+              </a>
+        </div>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+        <!-- Navbar Items-->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mr-auto">
+    
+            <li class="nav-item">
+              <a class="nav-link" href="/outreach">Outreach</a>
             </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/media">Media</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="/sponsors">Sponsors</a>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="/business">Business</a>
             </li>
-        </ul>
-  
-      
-  
-      <!-- Navbar Button-->
-    </ul>
-    <ul class="navbar-nav ml-auto">
-      
-      <li class="nav-item">
-          <a class="nav-link" href="/archive">Team Archive</a>
-        </li>
-      <li class="nav-item">
-        <button class="btn btn-outline-primary shadow-sm">Resources</button>
-      </li>
-  
-    </ul>
-    </div>
-  </nav>
-
-    <!-- End of Navbar -->
+            <li class="nav-item">
+              <a class="nav-link" href="/ftc">FTC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/fll">FLL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/events">Events</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/media">Media</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sponsors">Sponsors</a>
+              </li>
+          </ul>
+    
         
+    
+        <!-- Navbar Button-->
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/archive">Team Archive</a>
+          </li>
+        <li class="nav-item">
+          <button class="btn btn-outline-primary shadow-sm">Resources</button>
+        </li>
+    
+      </ul>
+      </div>
+      
+    </nav>
+  </div>
+      <!-- End of Navbar -->
+      <div id="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="images/chairmansvid.mp4" type="video/mp4">
         </video>
@@ -83,11 +84,11 @@
         <button id="action-btn" class="btn btn-outline-primary shadow">CTA here</button>
       </div>
   
-      <!-- <img src="{{ url_for('static', filename='images/je-logo-no-bg.png') }}" class="rounded" id="landing-logo"> -->
+      
       <svg id="border" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff"  fill-opacity="1" d="M0,128L720,224L1440,32L1440,320L720,320L0,320Z"></path></svg>
     </div>
     
-    <!-- <p id="hook">Filling in the gap between school and the real world for over 2 years</p> -->
+  <!-- Our Robots Section -->
     
     <div id="our-robots">
         <h1 id="our-robots-title">Our Robots</h1>
@@ -120,12 +121,18 @@
             </div>
           </div>
     </div>    
+
+    <!-- About Us Section -->
+
     <div id="about-us">
         <h1 id="about-us-title" class="about-us-class">Who Are We? 1923!</h1>
         <hr>
         <div class="row">
             <div class="col">
-                <p id="about-us-text" class="about-us-class"> The MidKnight Inventors was established in the fall of 2005. The team was started by a small group of students at WW-P High School North, but expanded in 2009 to include students from High School South as well. Today, WW-P Robotics is one of the largest co-curricular activities in the district, with over 130 student team members representing both high schools in the West Windsor-Plainsboro Regional School District, as well as a large family of other FIRST programs for grades K-8. </p>
+                <p id="about-us-text" class="about-us-class"> The MidKnight Inventors was established in the fall of 2005. The team was started by a small group 
+                  of students at WW-P High School North, but expanded in 2009 to include students from High School South as well. Today, WW-P Robotics is one of 
+                  the largest co-curricular activities in the district, with over 130 student team members representing both high schools in the 
+                  West Windsor-Plainsboro Regional School District, as well as a large family of other FIRST programs for grades K-8. </p>
             </div>
 
             <div class="col">
@@ -134,6 +141,7 @@
                 
               </div>
             </div>
+            <!-- Fun Facts Section -->
               <div id="fun-facts">
                
                   <h1 id="fun-facts-title" class="fun-facts-class">Fun Facts!</h1>
@@ -165,11 +173,17 @@
                         </div>
                           
                         </div>
+                      </div>
+                    </div>
      
     <div>
 
     </div>
     
-    
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
