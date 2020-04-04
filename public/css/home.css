@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 @import url('https://db.onlinewebfonts.com/c/25cf64dd488fdff7d43d30b499ba1ec4?family=Alien+Encounters+Solid');
 
+
 body {
     margin: 0;
     padding: 0;
@@ -30,7 +31,7 @@ html {
 .btn-outline-primary{color:#ff0098;background-color:transparent;background-image:none;border-color:#ff0098}.btn-outline-primary:hover{color:#222;background-color:#ff0098;border-color:#ff0098};
 .btn-outline-primary:focus,.btn-outline-primary.focus{box-shadow:0 0 0 .2rem rgba(255, 0, 152,0.5)}
 .btn-outline-primary.disabled,.btn-outline-primary:disabled{color:#ff0098;background-color:transparent}
-.btn-outline-primary:not(:disabled):not(.disabled):active,.btn-outline-primary:not(:disabled):not(.disabled).active,.show>.btn-outline-primary.dropdown-toggle{color:#fff;background-color:#ff0098;border-color:teal}
+.btn-outline-primary:not(:disabled):not(.disabled):active,.btn-outline-primary:not(:disabled):not(.disabled).active,.show>.btn-outline-primary.dropdown-toggle{color:#fff;background-color:#ff0098;border-color: rgba(255, 0, 152,0.5)}
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,.btn-outline-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-outline-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(255, 0, 152,0.5)}
 /* End of Button Change */
 .navbar{
@@ -55,10 +56,24 @@ a {
 #our-robots-title {
     color: #EEE;
     padding-top: 1em;
-    padding-bottom: 1em;
+
     text-align: center;
     font-family: 'Allerta Stencil';
 }
+#our-robots-caption{
+  color: #EEE;
+  text-align: center;
+  padding-bottom: 1.1em;
+}
+
+#our-robots{
+  color: #EEE;
+  text-align: center;
+}
+#robot-scroll-container{
+overflow-x: auto;
+}
+
 *,*::before,*::after {
     box-sizing: inherit;
   }
