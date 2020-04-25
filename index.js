@@ -7,7 +7,11 @@ var path = __dirname + "/views/";
 app.use("/",router);
   
 router.get("/",function(req, res){
-  res.sendFile(path + "home.html");
+  res.redirect("/home");
+});
+
+router.get("/home",function(req, res){
+  res.sendFIle(path + "home.html");
 });
 
 router.get("/business",function(req, res){
