@@ -11,7 +11,7 @@ router.get("/",function(req, res){
 });
 
 router.get("/home",function(req, res){
-  res.sendFIle(path + "home.html");
+  res.sendFile(path + "home.html");
 });
 
 router.get("/business",function(req, res){
