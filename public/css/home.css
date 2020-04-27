@@ -72,7 +72,7 @@ a {
   text-align: center;
 }
 #robot-scroll-container{
-overflow-x: auto;
+overflow-x: auto !important;
 }
 
 *,*::before,*::after {
@@ -83,7 +83,7 @@ overflow-x: auto;
   
 .landing-container {
         position: relative;
-        background-color: rgba(26, 26, 26, 0.8);
+        background-color: rgba(26, 27, 28, 0.8);
         background-size: cover;
         overflow: hidden;
         width: 100%;
@@ -154,7 +154,7 @@ video {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  filter:grayscale(90%);
+  filter:grayscale(95%);
 }
 
 
@@ -165,7 +165,7 @@ video {
 }
 #border path {
   fill: #1a1b1c;
-  color: black;
+  color: #1a1b1c; ;
 }
 
 hr { 
@@ -231,6 +231,12 @@ padding-bottom: 4em;
   margin-top: 4em;
   margin-bottom: 4em;
  
+}
+
+.card {
+  min-height: 300px;
+  min-width: 300px;
+  margin-right: 5px;
 }
 
 #about-us-teampic{

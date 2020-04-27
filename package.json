@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aarav545/MKIDraft.git"
+    "url": "git+https://github.com/team1923/Website.git"
   },
   "author": "Jivitesh Irivichetty",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aarav545/MKIDraft/issues"
+    "url": "https://github.com/team1923/Website/issues"
   },
-  "homepage": "https://github.com/Aarav545/MKIDraft#readme",
+  "homepage": "https://github.com/team1923/Website#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.2"
