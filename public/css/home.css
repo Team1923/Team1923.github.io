@@ -1,3 +1,5 @@
+/* TODO: Clean-up */
+
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
@@ -8,8 +10,8 @@ body {
     margin: 0;
     padding: 0;
     background: #1a1b1c; 
-    
-    
+    position: relative;
+
   }
  .landing-container .btn {
     font-family: "Allerta Stencil";
@@ -17,6 +19,7 @@ body {
 html {
     box-sizing: border-box;
 }
+
 
 /* Primary Button Color Change *TODO CHANGE TO SASS*  */
 .btn-primary{color:#fff;background-color: #ff0098
@@ -57,7 +60,7 @@ a {
 #our-robots-title {
     color: #EEE;
     padding-top: 1em;
-
+    font-size: 2.5rem;
     text-align: center;
     font-family: 'Allerta Stencil';
 }
@@ -83,7 +86,7 @@ overflow-x: auto !important;
   
 .landing-container {
         position: relative;
-        background-color: rgba(26, 27, 28, 0.8);
+        background-color: rgba(52, 58, 64, 0.8);
         background-size: cover;
         overflow: hidden;
         width: 100%;
@@ -195,7 +198,7 @@ hr {
 
 #about-first {
 margin-top: 4em;
-background-color: rgba(54, 57, 59, 0.8);
+background-color: rgba(52, 58, 64);
 padding-top: 4em;
 padding-bottom: 4em;
 }
@@ -233,10 +236,35 @@ padding-bottom: 4em;
  
 }
 
-.card {
+#our-robots .card {
   min-height: 300px;
   min-width: 300px;
   margin-right: 5px;
+}
+
+#our-mentors .card {
+  max-width: 300px;
+  min-height: 0px;
+}
+
+#our-mentors a {
+ font-family: "Roboto";
+ font-size: 1.2rem;
+}
+
+#our-mentors {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#our-mentors-title {
+  font-family: "Allerta Stencil";
+  font-size: 2.5rem;
+}
+
+
+.our-robot-names {
+  font-family: "Alien Encounters Solid";
 }
 
 #about-us-teampic{
@@ -253,8 +281,11 @@ padding-bottom: 4em;
   color:#EEE;
 }
 
-
-#fun-facts{
+.mentor-cards{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* #fun-facts{
   margin-top: 4em;
   background-color: rgba(54, 57, 59, 0.8);
   overflow: hidden;
@@ -278,7 +309,7 @@ padding-bottom: 4em;
   margin-right: 20%;
   margin-top: 1em;
   color: #EEE;
-}
+} */
 #about-us p{
   text-align: left;
   margin-top: 1.5rem;
@@ -290,6 +321,36 @@ padding-bottom: 4em;
   margin-left: 15%;
   margin-right: 5%
 
+}
+
+#our-awards{
+  margin-top: 7em;
+  text-align: left;
+  color: #EEE;
+}
+#our-awards h3{
+
+  text-align: center;
+  color: #EEE;
+}
+
+#our-awards li{
+
+  margin: 1em;
+  font-size: 1.25rem;
+  font-family: 'Roboto';
+  font-weight: lighter;
+}
+
+#our-awards ul{
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#awards-title {
+  font-family: "Allerta Stencil";
+  font-size: 2.5rem;
 }
 
 @keyframes landing-title-animation {
