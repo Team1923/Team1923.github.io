@@ -114,7 +114,7 @@ overflow-x: auto !important;
     text-align: center;
     font-size: 5rem;
     margin-top: 1.75em;
-    font-family: 'Alien Encounters Solid';
+    font-family: 'alien_encounters_solidregular';
     /* font-weight: bold; */
 }
 .landing-container h3{
@@ -272,7 +272,7 @@ padding-bottom: 4em;
 
 
 .our-robot-names {
-  font-family: "Alien Encounters Solid";
+  font-family: "alien_encounters_solidregular";
 }
 
 #about-us-teampic{
