@@ -246,7 +246,7 @@ padding-bottom: 4em;
   font-size: 1.25rem;
   line-height: 250%;
   color:#EEE;
-  font-family: "Roboto" ;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -269,7 +269,7 @@ padding-bottom: 4em;
 }
 
 #our-mentors a {
- font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
  font-size: 1.2rem;
 }
 
@@ -337,7 +337,7 @@ padding-bottom: 4em;
   font-size: 1.25rem;
   line-height: 200%;
   color:#EEE;
-  font-family: "Roboto" ;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin-left: 15%;
   margin-right: 5%
@@ -359,7 +359,7 @@ padding-bottom: 4em;
 
   margin: 1em;
   font-size: 1.25rem;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
 }
 
