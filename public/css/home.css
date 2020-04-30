@@ -269,6 +269,7 @@ padding-bottom: 4em;
 #our-mentors {
   margin-left: 5%;
   margin-right: 5%;
+  overflow: hidden;
 }
 
 #our-mentors-title {
@@ -341,6 +342,7 @@ padding-bottom: 4em;
   margin-top: 7em;
   text-align: left;
   color: #EEE;
+  overflow: hidden;
 }
 #our-awards h3{
 
@@ -388,4 +390,3 @@ padding-bottom: 4em;
     transform: scale(1,1);
   }
 }
-
