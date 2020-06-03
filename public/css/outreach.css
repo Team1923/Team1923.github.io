@@ -2,82 +2,145 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 @import url('https://db.onlinewebfonts.com/c/25cf64dd488fdff7d43d30b499ba1ec4?family=Alien+Encounters+Solid');
-
 body {
     margin: 0;
     padding: 0;
-    background: #1a1b1c; 
-    
-    
-  }
- .landing-container .btn {
+    background: #1a1b1c;
+}
+
+.landing-container .btn {
     font-family: "Allerta Stencil";
 }
+
 html {
     box-sizing: border-box;
 }
 
+
 /* Primary Button Color Change *TODO CHANGE TO SASS*  */
-.btn-primary{color:#fff;background-color: #ff0098
-  ;border-color:#ff0098}
 
-.btn-primary:hover{color:#fff;background-color:#ff0098;border-color:#ff0098}
-.btn-primary:focus,.btn-primary.focus{box-shadow:0 0 0 .2rem rgba(255, 0, 152,0.5)}
-.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#ff0098;border-color:#ff0098}
-.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#ff0098;border-color:#000}
-.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(255, 0, 152,0.5)}
+.btn-primary {
+    color: #fff;
+    background-color: #ff0098;
+    border-color: #ff0098
+}
 
-.btn-outline-primary{color:#ff0098;background-color:transparent;background-image:none;border-color:#ff0098}.btn-outline-primary:hover{color:#222;background-color:#ff0098;border-color:#ff0098};
-.btn-outline-primary:focus,.btn-outline-primary.focus{box-shadow:0 0 0 .2rem rgba(255, 0, 152,0.5)}
-.btn-outline-primary.disabled,.btn-outline-primary:disabled{color:#ff0098;background-color:transparent}
-.btn-outline-primary:not(:disabled):not(.disabled):active,.btn-outline-primary:not(:disabled):not(.disabled).active,.show>.btn-outline-primary.dropdown-toggle{color:#fff;background-color:#ff0098;border-color: rgba(255, 0, 152,0.5)}
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.btn-outline-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-outline-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(255, 0, 152,0.5)}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff0098;
+    border-color: #ff0098
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 152, 0.5)
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #ff0098;
+    border-color: #ff0098
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff0098;
+    border-color: #000
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 152, 0.5)
+}
+
+.btn-outline-primary {
+    color: #ff0098;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff0098
+}
+
+.btn-outline-primary:hover {
+    color: #222;
+    background-color: #ff0098;
+    border-color: #ff0098
+}
+
+;
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 152, 0.5)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: #ff0098;
+    background-color: transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff0098;
+    border-color: rgba(255, 0, 152, 0.5)
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 152, 0.5)
+}
 
 .btn {
     font-family: "Allerta Stencil";
 }
+
+
 /* End of Button Change */
-.navbar{
-    position:relative;
-   }
-   
+
+.navbar {
+    position: relative;
+}
+
 a {
-  font-family: "Allerta Stencil";
+    font-family: "Allerta Stencil";
 }
 
-@media (min-width: 992px){
-  .navbar li {
-      margin-left : 0.5em;
-      margin-right : 0.5em;
-  }
-  .landing-title {
-      margin-top : -0.3em;
-  }
-  
-
+@media (min-width: 992px) {
+    .navbar li {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .landing-title {
+        margin-top: -0.3em;
+    }
 }
 
-hr { 
+hr {
     background-color: #ff0098;
     height: 1px;
-    border: 0; 
+    border: 0;
     width: 25rem;
     margin-top: 2.5em;
     margin-bottom: 2em;
-  }
+}
 
 h1 {
     color: #EEE;
     text-align: center;
     font-size: 5rem;
-   
     font-family: 'Alien Encounters Solid';
     /* font-weight: bold; */
 }
 
 h2 {
     color: #EEE;
-    margin-left:10%;
+    margin-left: 10%;
     font-size: 4rem;
     margin-top: 1.75em;
     font-family: 'Allerta Stencil';
@@ -85,24 +148,19 @@ h2 {
 }
 
 #intro-section h3 {
-    
     margin-left: 10%;
-
     margin-top: 1.75em;
-
 }
 
 h3 {
     color: #EEE;
-
     font-size: 3rem;
-    
     font-family: 'Allerta Stencil';
     /* font-weight: bold; */
 }
 
 h4 {
-    color:#EEE;
+    color: #EEE;
     font-size: 2.5rem;
     font-family: 'Allerta Stencil';
 }
@@ -112,63 +170,53 @@ p {
     margin-top: 1.5rem;
     font-size: 1.25rem;
     line-height: 200%;
-    color:#EEE;
-    font-family: "Roboto" ;
+    color: #EEE;
+    font-family: "Roboto";
     font-weight: 300;
     margin-left: 10%;
-   
 }
 
 #intro-section {
     overflow-x: hidden;
-
 }
 
-#outreach-teampic {  
-  width: 90%;
-  height: auto;
-  
-  
-  margin-top: 7.5em;
+#outreach-teampic {
+    width: 90%;
+    height: auto;
+    margin-top: 7.5em;
 }
 
 #manual-section {
     justify-content: center;
     margin-top: 3em;
-    
 }
 
-#event-section{
+#event-section {
     text-align: center;
     margin-top: 6em;
     margin-left: 2em;
     margin-right: 2em;
-
 }
 
-
-#programs-section{
+#programs-section {
     margin-top: 7em;
     text-align: left;
     color: #EEE;
 }
-#programs-section h3{
 
+#programs-section h3 {
     text-align: center;
     color: #EEE;
 }
 
-#programs-section li{
-
+#programs-section li {
     margin: 2em;
     font-size: 1.25rem;
     font-family: 'Roboto';
     font-weight: lighter;
 }
 
-#programs-section ul{
-
+#programs-section ul {
     margin-left: 10%;
     margin-right: 10%;
 }
-
