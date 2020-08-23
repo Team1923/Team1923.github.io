@@ -182,6 +182,12 @@ video {
     margin-right: 5px;
 }
 
+
+/* #our-robots img {
+    height: 300px;
+    min-width: 300px;
+} */
+
 #our-robots-title {
     color: #EEE;
     padding-top: 1em;
@@ -248,8 +254,7 @@ video {
 #about-us-teampic {
     width: 80%;
     height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5%;
     margin-top: 2.5em;
 }
 
@@ -279,9 +284,19 @@ video {
     margin: 0 2em;
 }
 
+.mentor-sec {
+    display: flex;
+    justify-content: center;
+}
+
+#our-mentors img {
+    width: 300px;
+    /* min-height: 0px; */
+}
+
 #our-mentors .card {
     max-width: 300px;
-    min-height: 0px;
+    /* min-height: 0px; */
 }
 
 #our-mentors a {
@@ -290,8 +305,7 @@ video {
 }
 
 #our-mentors {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0 2vw;
     overflow: hidden;
 }
 
@@ -309,6 +323,7 @@ video {
     color: #EEE;
     overflow: hidden;
     margin-bottom: 4em;
+    font-size: 1em;
 }
 
 #our-awards h3 {
@@ -318,19 +333,56 @@ video {
 
 #our-awards li {
     margin: 1em;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
 
 #our-awards ul {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10%;
 }
 
 #awards-title {
     font-family: "Allerta Stencil";
     font-size: 2.5rem;
+    text-align: center;
+}
+
+#footer-container {
+    margin-top: 4em;
+    overflow-x: hidden;
+}
+
+#footer-container h3 {
+    color: #eee;
+    font-size: 1.7em;
+    text-align: start;
+    font-family: "Allerta Stencil";
+    padding: 0.1em;
+}
+
+#footer-container p {
+    font-size: 1em;
+    color: #eee;
+    margin: 0;
+    /* padding: 0; */
+    padding: 0.2em;
+}
+
+#team-sponsors h4 {
+    color: #eee;
+    font-size: 1.7em;
+    text-align: start;
+    font-family: "Allerta Stencil";
+    padding: 1em;
+    margin: 2em 0;
+    text-align: center;
+}
+
+#team-sponsors p {
+    color: #eee;
+    text-align: center;
+    padding: 1em;
 }
 
 @keyframes landing-title-animation {
@@ -428,15 +480,26 @@ video {
 }
 
 @media (min-width: 992px) {
-    .navbar li {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+    #main-nav li {
+        margin: 0 4em;
+    }
+    #mentor-container {
+        display: flex;
+        justify-content: center;
+    }
+    #center-nav {
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (max-width: 991px) {
     #home-nav {
         display: none;
+    }
+    #mentor-container {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -470,5 +533,9 @@ video {
         background-color: rgba(52, 58, 64);
         padding: 4em 18em;
         overflow-x: hidden;
+    }
+    #mentor-container {
+        display: flex;
+        justify-content: center;
     }
 }

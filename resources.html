@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Resources</title>
+    <link rel="icon" href="images/blacklogo.png">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/home.css">
@@ -13,157 +14,148 @@
 
 <body>
     <!-- Navbar -->
-    <div id="landing-container" class="wave-container">
-        <!-- Navbar Branding -->
-        <nav id="navbar-container" class="navbar navbar-expand-lg navbar-dark sticky-top mr-auto" style="background-color: transparent">
+    <div id="center-nav">
+        <div id="navbar-container">
+            <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark sticky-top mr-auto" style="background-color:transparent">
 
-            <div id="nav-logo">
-                <a class="navbar-brand" href="/">
-                    <img src="images/whitelogo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                <div id="nav-logo">
+                    <a class="navbar-brand" href="/">
+                        <img src="images/whitelogo.png" width="50" height="50" class="d-inline-block align-top" style="opacity: 80%;">
+                    </a>
+                </div>
 
-                </a>
-            </div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-            <!-- Navbar Items-->
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
+                <!-- Navbar Items-->
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="outreach.html">Outreach</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="media.html">Media</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="sponsors.html">Sponsors</a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./outreach.html">Outreach</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="./media.html">Media</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sponsors.html">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:#ff0098;" href="/resources.html">Resources</a>
+                        </li>
+                    </ul>
 
+                </div>
 
+            </nav>
+        </div>
+    </div>
 
-                <!-- Navbar Button-->
-                </ul>
-                <ul class="navbar-nav ml-auto">
+    <div id="resources-container">
 
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="/archive">Team Archive</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <button class="btn btn-outline-primary shadow-sm" onclick="window.location.href='/resources.html';">Resources</button>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-
-        <div id="resources-container">
-
-            <!-- <iframe src="https://drive.google.com/embeddedfolderview?id=1XH6QyWVlvabO38vTUUZkim2aJq2W4XQc#list" style="width:100%; height:600px; border:0;"></iframe> -->
-            <div class="accordion" id="accordionExample">
-                <div class="card  bg-dark text-white">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <!-- <iframe src="https://drive.google.com/embeddedfolderview?id=1XH6QyWVlvabO38vTUUZkim2aJq2W4XQc#list" style="width:100%; height:600px; border:0;"></iframe> -->
+        <div class="accordion" id="accordionExample">
+            <div class="card  bg-dark text-white">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Team Management Docs
                           </button>
-                        </h5>
-                    </div>
+                    </h5>
+                </div>
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <iframe src="https://drive.google.com/embeddedfolderview?id=11cgHrX6_ieIoHQNW_p91gMfcljhE70h8#grid" style="width:100%; height:500px; border:0;"></iframe>
-                        </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <iframe src="https://drive.google.com/embeddedfolderview?id=11cgHrX6_ieIoHQNW_p91gMfcljhE70h8#grid" style="width:100%; height:500px; border:0;"></iframe>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            </div>
+            <div class="card bg-dark text-white">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Outreach and Awards
                           </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <iframe src="https://drive.google.com/embeddedfolderview?id=1-JSVdtfPWVKiwuz5UfG20zBxN35MILov#grid" style="width:100%; height:500px; border:0;"></iframe>
-                        </div>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <iframe src="https://drive.google.com/embeddedfolderview?id=1-JSVdtfPWVKiwuz5UfG20zBxN35MILov#grid" style="width:100%; height:500px; border:0;"></iframe>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            </div>
+            <div class="card bg-dark text-white">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Business and Fundraising
                           </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <iframe src="https://drive.google.com/embeddedfolderview?id=1AdD40xnJOM5fE16fQY7OCIYzc6txc375#grid" style="width:100%; height:500px; border:0;"></iframe>
-                        </div>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <iframe src="https://drive.google.com/embeddedfolderview?id=1AdD40xnJOM5fE16fQY7OCIYzc6txc375#grid" style="width:100%; height:500px; border:0;"></iframe>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <div class="card-header" id="headingFour">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            </div>
+            <div class="card bg-dark text-white">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                   Robot Materials
                                 </button>
-                        </h5>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <iframe src="https://drive.google.com/embeddedfolderview?id=1MMyQj_YY_FLiHlDBYmXIEWynwROSnaDK#grid" style="width:100%; height:500px; border:0;"></iframe>
-                        </div>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <iframe src="https://drive.google.com/embeddedfolderview?id=1MMyQj_YY_FLiHlDBYmXIEWynwROSnaDK#grid" style="width:100%; height:500px; border:0;"></iframe>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <div class="card-header" id="headingFive">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            </div>
+            <div class="card bg-dark text-white">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                       MidKnightU
                                     </button>
-                        </h5>
-                    </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <iframe src="https://drive.google.com/embeddedfolderview?id=1SMpoFRGNCqLgcWZC0zqUj6F-JKG_dJti#grid" style="width:100%; height:500px; border:0;"></iframe>
-                        </div>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <iframe src="https://drive.google.com/embeddedfolderview?id=1SMpoFRGNCqLgcWZC0zqUj6F-JKG_dJti#grid" style="width:100%; height:500px; border:0;"></iframe>
                     </div>
                 </div>
             </div>
+        </div>
 
 
+        <div id="footer-container" class="footer-class" style="background-color: rgba(52, 58, 64); overflow-x: hidden; color: #eee; margin-top: 6em;">
+            <br>
+            <br>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <img src="images/whitelogo.png " width="150 " height="150 " class="d-inline-block align-top " style="opacity: 80%; ">
 
-
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-            <div id="footer-container" class="footer-class" style="background-color: rgba(52, 58, 64); overflow-x: hidden;">
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col" ">
-                        <img src="images/whitelogo.png " width="150 " height="150 " class="d-inline-block align-top " style="opacity: 80%; ">
-                       
-                    </div>
-                    <div class="col " style="text-align: start; ">
-                        <br>
-                        <h3>FIRST Team 1923: The MidKnight Inventors</h3>
-                        <p>West Windsor-Plainsboro Regional School District</p>
-                        <p> twitter @FRC1923 | facebook.com/FRC1923 | instagram @midknightinventors</p>
-    
-                    </div>
                 </div>
-    <br>
-    <br>
+                <div class="col " style="text-align: start; ">
+                    <br>
+                    <h3>FIRST Team 1923: The MidKnight Inventors</h3>
+                    <p>West Windsor-Plainsboro Regional School District</p>
+                    <p> twitter @FRC1923 | facebook.com/FRC1923 | instagram @midknightinventors</p>
+
+                </div>
             </div>
+            <br>
+            <br>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+
+
 </body>
 
 </html>
