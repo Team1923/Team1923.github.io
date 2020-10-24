@@ -55,16 +55,20 @@
 
         <!-- End of Navbar -->
         <div id="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video playsinline autoplay loop muted>
           <source src="images/chairmansvid.mp4" type="video/mp4">
         </video>
-        <h1 id="landing-title">The MidKnight Inventors</h1>
-        <h3 id="landing-caption">FIRST Robotics Competition Team 1923</h3>
-        <div class="col text-center">
-            <a href="https://forms.gle/wNMRYMfx7yxwYkt59">
-                <button id="action-btn" class="btn btn-outline-primary shadow">We're recruiting!</button>
-            </a>
+        <div id="landing-text">
+            <h1 id="landing-title">The MidKnight Inventors</h1>
+            <h3 id="landing-caption">FIRST Robotics Competition Team 1923</h3>
+            <div class="col text-center">
+                <a href="https://forms.gle/wNMRYMfx7yxwYkt59">
+                    <button id="action-btn" class="btn btn-outline-primary shadow">Check out our Robots!</button>
+                </a>
+            </div>
         </div>
+
+
 
         <div class="scroll-downs">
             <div class="mousey">
@@ -112,7 +116,7 @@
         <div class="container-fluid" id="robot-scroll-container">
             <div class="container-fluid py-2">
                 <div class="d-flex flex-row flex-nowrap">
-                    <div class="card text-white bg-dark" style="min-width: 400px;">
+                    <div class="card text-white bg-dark">
                         <img class="card-img-top" src="images/singularity.png" height="300" alt="Card image cap">
                         <br>
                         <h4 class="our-robot-names card-title">Singularity</h4>
@@ -148,7 +152,7 @@
                             <small class="text-muted">2017: Steamworks</small>
                         </div>
                     </div>
-                    <div class="card text-white bg-dark">
+                    <div class="card knightmare-card text-white bg-dark">
                         <img class="card-img-top" src="images/knightmare.png" height="300" alt="Card image cap">
                         <br>
                         <h4 class="our-robot-names card-title">KnightMare</h4>
@@ -299,7 +303,6 @@
                         WW-P school venue. </p>
                 </div>
             </div>
-
         </div>
 
 
@@ -308,166 +311,168 @@
 
             <h1 id="our-mentors-title">Our Mentors</h1>
             <hr>
+            <h3 class="mt-4"> Advisors</h3>
             <div id="mentor-container">
                 <div class="row">
                     <div class="mentor-cards card-deck ">
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="mentor-sec">
-                                <div class="card text-white bg-dark mb-4">
-                                    <h3 class="card-title">Libby Kamen</h3>
-                                    <img class="card-img-top" src="images/libby-mentorpic.jpg" height="250" alt="Card image cap">
-                                    <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#libby-collapse" aria-expanded="true" aria-controls="libby-collapse" id="heading-collapsed-libby">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card text-white bg-dark mb-4">
+                                <h3 class="card-title">Libby Kamen</h3>
+                                <img class="card-img-top" src="images/libby-mentorpic.jpg" alt="Card image cap">
+                                <h5 class="card-header">
+                                    <a class="collapsed d-block" data-toggle="collapse" href="#libby-collapse" aria-expanded="true" aria-controls="libby-collapse" id="heading-collapsed-libby">
                                            Learn more about Libby
                                         </a>
-                                    </h5>
-                                    <div id="libby-collapse" class="collapse" aria-labelledby="heading-collapsed-libby">
-                                        <div class="card-body">
-                                            <b>Years on Team:</b>
-                                            <p>15</p>
-                                            <b>Job Title/Company:</b>
-                                            <p>Co-Owner, Radiance Media</p>
-                                            <b>Subteams</b>
-                                            <p>Mechanical, Outreach & Media, Business, Strategy</p>
-                                            <b>Favorite part of 1923:</b>
-                                            <p>One of the things I'm proudest of in working with the team is watching each student grow into a little bit more of 'themselves' each year - through the confidence, learning, and teamwork that FIRST inspires.</p>
-                                        </div>
+                                </h5>
+                                <div id="libby-collapse" class="collapse" aria-labelledby="heading-collapsed-libby">
+                                    <div class="card-body">
+                                        <b>Years on Team:</b>
+                                        <p>15</p>
+                                        <b>Job Title/Company:</b>
+                                        <p>Co-Owner, Radiance Media</p>
+                                        <b>Subteams</b>
+                                        <p>Mechanical, Outreach & Media, Business, Strategy</p>
+                                        <b>Favorite part of 1923:</b>
+                                        <p>One of the things I'm proudest of in working with the team is watching each student grow into a little bit more of 'themselves' each year - through the confidence, learning, and teamwork that FIRST inspires.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="mentor-sec">
-                                <div class="card text-white bg-dark mb-4">
-                                    <h3 class="card-title">Katie Bunca</h3>
-                                    <img class="card-img-top" src="images/katie-mentorpic.jpeg" height="250" alt="Katie Bunca Picture">
-                                    <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#katie-collapse" aria-expanded="true" aria-controls="katie-collapse" id="heading-collapsed-katie">
-                                     Learn more about Katie
-                                  </a>
-                                    </h5>
-                                    <div id="katie-collapse" class="collapse" aria-labelledby="heading-collapsed-katie">
-                                        <div class="card-body">
-                                            <b>Years on Team:</b>
-                                            <p>15</p>
-                                            <b>Job Title/Company:</b>
-                                            <p>Silver Dollar Stables</p>
-                                            <b>Subteams</b>
-                                            <p>Outreach & Media, Business, Strategy</p>
-                                            <b>Favorite part of 1923:</b>
-                                            <p>Seeing this program develop and grow into such a strong and competitive team. Giving these kids the opportunity to have access to a program we could only dream of. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="mentor-sec">
-                                <div class="card text-white bg-dark mb-4">
-                                    <h3 class="card-title">Luke Capritti</h3>
-                                    <img class="card-img-top" src="images/luke-mentorpic.JPG" height="250" alt="Card image cap">
-                                    <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#luke-collapsed" aria-expanded="true" aria-controls="luke-collapsed" id="heading-collapsed-luke">
-                                   Learn more about Luke
-                                </a>
-                                    </h5>
-                                    <div id="luke-collapsed" class="collapse" aria-labelledby="heading-collapsed-luke">
-                                        <div class="card-body">
-                                            <b>Years on Team:</b>
-                                            <p>1</p>
-                                            <b>Job Title/Company:</b>
-                                            <p>Technology Teacher</p>
-                                            <b>Subteams</b>
-                                            <p>Mechanical, CAD</p>
-                                            <b>Favorite part of 1923:</b>
-                                            <p>Although I’m a mentor and supposed to be the one passing on best practices or knowledge, I love that I learn something new from the kids every meeting. Interacting with the passionate students and mentors re-energizes
-                                                me after a long day of teaching. The Taco Bell dinners are a pretty big plus, too. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="mentor-sec">
-                                <div class="card text-white bg-dark mb-4">
-                                    <h3 class="card-title">Dr. Ruth Kamen</h3>
-                                    <img class="card-img-top" src="images/drkamen-mentorpic.jpg" height="250" alt="Card image cap">
-                                    <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#ruth-collapsed" aria-expanded="true" aria-controls="ruth-collapsed" id="heading-collapsed-ruth">
-                                     Learn more about Dr. Kamen
-                                  </a>
-                                    </h5>
-                                    <div id="ruth-collapsed" class="collapse" aria-labelledby="heading-collapsed-ruth">
-                                        <div class="card-body">
-                                            <b>Years on Team:</b>
-                                            <p>15</p>
-                                            <b>Job Title/Company:</b>
-                                            <p>Speech/Language Pathologist, PENNMEDICINE/Princeton Health/HomeCare</p>
-                                            <b>Subteams</b>
-                                            <p>Outreach, Media, Business</p>
-                                            <b>Favorite part of 1923:</b>
-                                            <p>As one of the founding parents of Team 1923, being part of its evolution since its inception has been a privilege. No doubt, The MidKnight Family will continue to evolve with humility, respect, tenacity, spirited
-                                                initiative and resourcefulness, leaving an everlasting footprint and legacy.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="mentor-sec">
-                                <div class="card text-white bg-dark mb-4">
-                                    <h3 class="card-title">Eric Drost</h3>
-                                    <img class="card-img-top" src="images/eric-mentorpic.jpg" height="250" alt="Card image cap">
-                                    <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card text-white bg-dark mb-4">
+                                <h3 class="card-title">Eric Drost</h3>
+                                <img class="card-img-top" src="images/eric-mentorpic.jpg" alt="Card image cap">
+                                <h5 class="card-header">
+                                    <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
                                    Learn more about Eric
                                 </a>
-                                    </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
-                                        <div class="card-body">
-                                            <b>Years on Team:</b>
-                                            <p>6</p>
-                                            <b>Job Title/Company:</b>
-                                            <p>Assistant Robotics Advisor</p>
-                                            <b>Subteams</b>
-                                            <p>Mechanical, Strategy</p>
-                                            <b>Favorite part of 1923:</b>
-                                            <p>Working with students to bring their ideas from strategy to design concept.</p>
-                                        </div>
+                                </h5>
+                                <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div class="card-body">
+                                        <b>Years on Team:</b>
+                                        <p>6</p>
+                                        <b>Job Title/Company:</b>
+                                        <p>Assistant Robotics Advisor</p>
+                                        <b>Subteams</b>
+                                        <p>Mechanical, Strategy</p>
+                                        <b>Favorite part of 1923:</b>
+                                        <p>Working with students to bring their ideas from strategy to design concept.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="mentor-sec">
-                                <div class="card text-white bg-dark mb-4">
-                                    <h3 class="card-title">Libby Kamen</h3>
-                                    <img class="card-img-top" src="images/knightshade.jpeg" height="250" alt="Card image cap">
-                                    <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
-                                 Learn more about Libby
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card text-white bg-dark mb-4">
+                                <h3 class="card-title">Luke Capritti</h3>
+                                <img class="card-img-top" src="images/luke-mentorpic.JPG" alt="Card image cap">
+                                <h5 class="card-header">
+                                    <a class="collapsed d-block" data-toggle="collapse" href="#luke-collapsed" aria-expanded="true" aria-controls="luke-collapsed" id="heading-collapsed-luke">
+                                   Learn more about Luke
+                                </a>
+                                </h5>
+                                <div id="luke-collapsed" class="collapse" aria-labelledby="heading-collapsed-luke">
+                                    <div class="card-body">
+                                        <b>Years on Team:</b>
+                                        <p>1</p>
+                                        <b>Job Title/Company:</b>
+                                        <p>Technology Teacher</p>
+                                        <b>Subteams</b>
+                                        <p>Mechanical, CAD</p>
+                                        <b>Favorite part of 1923:</b>
+                                        <p>Although I’m a mentor and supposed to be the one passing on best practices or knowledge, I love that I learn something new from the kids every meeting. Interacting with the passionate students and mentors re-energizes
+                                            me after a long day of teaching. The Taco Bell dinners are a pretty big plus, too. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="mt-4">Mentors</h3>
+                <div class="row">
+                    <div class="mentor-cards card-deck ">
+                        <div class="col-lg-4 col-md-12">
+
+                            <div class="card text-white bg-dark mb-4">
+                                <h3 class="card-title">Dr. Ruth Kamen</h3>
+                                <img class="card-img-top" src="images/drkamen-mentorpic.jpg" alt="Card image cap">
+                                <h5 class="card-header">
+                                    <a class="collapsed d-block" data-toggle="collapse" href="#ruth-collapsed" aria-expanded="true" aria-controls="ruth-collapsed" id="heading-collapsed-ruth">
+                                     Learn more about Dr. Kamen
+                                  </a>
+                                </h5>
+                                <div id="ruth-collapsed" class="collapse" aria-labelledby="heading-collapsed-ruth">
+                                    <div class="card-body">
+                                        <b>Years on Team:</b>
+                                        <p>15</p>
+                                        <b>Job Title/Company:</b>
+                                        <p>Speech/Language Pathologist, PENNMEDICINE/Princeton Health/HomeCare</p>
+                                        <b>Subteams</b>
+                                        <p>Outreach, Media, Business</p>
+                                        <b>Favorite part of 1923:</b>
+                                        <p>As one of the founding parents of Team 1923, being part of its evolution since its inception has been a privilege. No doubt, The MidKnight Family will continue to evolve with humility, respect, tenacity, spirited
+                                            initiative and resourcefulness, leaving an everlasting footprint and legacy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card text-white bg-dark mb-4">
+                                <h3 class="card-title">Katie Bunca</h3>
+                                <img class="card-img-top" src="images/katie-mentorpic.jpeg" alt="Katie Bunca Picture">
+                                <h5 class="card-header">
+                                    <a class="collapsed d-block" data-toggle="collapse" href="#katie-collapse" aria-expanded="true" aria-controls="katie-collapse" id="heading-collapsed-katie">
+                                     Learn more about Katie
+                                  </a>
+                                </h5>
+                                <div id="katie-collapse" class="collapse" aria-labelledby="heading-collapsed-katie">
+                                    <div class="card-body">
+                                        <b>Years on Team:</b>
+                                        <p>15</p>
+                                        <b>Job Title/Company:</b>
+                                        <p>Silver Dollar Stables</p>
+                                        <b>Subteams</b>
+                                        <p>Outreach & Media, Business, Strategy</p>
+                                        <b>Favorite part of 1923:</b>
+                                        <p>Seeing this program develop and grow into such a strong and competitive team. Giving these kids the opportunity to have access to a program we could only dream of. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card text-white bg-dark mb-4">
+                                <h3 class="card-title">Sarath Jaladi</h3>
+                                <img class="card-img-top" src="images/sarath-mentorpic.jpg" alt="Card image cap">
+                                <h5 class="card-header">
+                                    <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
+                                 Learn more about Sarath
                               </a>
-                                    </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
-                                        <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                        </div>
+                                </h5>
+                                <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div class="card-body">
+                                        <b>Years on Team:</b>
+                                        <p>8</p>
+                                        <b>Job Title/Company:</b>
+                                        <p>Research & Development Engineer, CompoSecure LLC</p>
+                                        <b>Subteams</b>
+                                        <p>Mechanical, CAD, Electrical, Programming, Strategy</p>
+                                        <b>Favorite part of 1923:</b>
+                                        <p>I most enjoy working side by side with students to design and build complex robots using advanced design and manufacturing techniques in an effort to foster and grow an interest in STEM.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
+
+
+
         <div class="awards-class" id="our-awards">
             <h1 id="awards-title" class="awards-class d-flex justify-content-center">Our Awards and Accomplishments</h1>
             <hr>

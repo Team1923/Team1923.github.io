@@ -102,10 +102,18 @@ hr {
     height: 107vh;
 }
 
+#landing-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
 #landing-title {
     margin-top: 1.25em;
-    /* margin-right: 5%;
-    margin-left: 5%; */
     animation: landing-title-animation 0.8s;
     text-align: center;
     color: #EEE;
@@ -182,6 +190,12 @@ video {
     margin-right: 5px;
 }
 
+#our-robots .knightmare-card {
+    min-height: 300px;
+    min-width: 520px !important;
+    margin-right: 5px;
+}
+
 
 /* #our-robots img {
     height: 300px;
@@ -253,9 +267,9 @@ video {
 
 #about-us-teampic {
     width: 80%;
+    max-width: 800px;
     height: auto;
     margin: 0 5%;
-    margin-top: 2.5em;
 }
 
 #about-us h1 {
@@ -280,23 +294,31 @@ video {
 
 /* Our Mentors */
 
-.mentor-cards {
-    margin: 0 2em;
-}
-
-.mentor-sec {
+#mentor-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+.mentor-cards {
+    margin: 0 auto;
+}
+
 #our-mentors img {
-    width: 300px;
-    /* min-height: 0px; */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 #our-mentors .card {
-    max-width: 300px;
-    /* min-height: 0px; */
+    width: 75%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#our-mentors h3 {
+    font-size: 32px;
 }
 
 #our-mentors a {
@@ -305,8 +327,8 @@ video {
 }
 
 #our-mentors {
-    margin: 0 2vw;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 #our-mentors-title {
@@ -339,7 +361,7 @@ video {
 }
 
 #our-awards ul {
-    margin: 0 10%;
+    margin: 0 20%;
 }
 
 #awards-title {
@@ -348,8 +370,14 @@ video {
     text-align: center;
 }
 
+#awards .col {
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
 #footer-container {
-    margin-top: 4em;
     overflow-x: hidden;
 }
 
@@ -483,23 +511,29 @@ video {
     #main-nav li {
         margin: 0 4em;
     }
-    #mentor-container {
-        display: flex;
-        justify-content: center;
-    }
     #center-nav {
         display: flex;
         justify-content: center;
+    }
+    #our-mentors h3 {
+        font-size: 32px;
+    }
+    #our-mentors img {
+        width: 100%;
+        max-width: 300px;
+        /* min-height: 0px; */
+    }
+    #our-mentors .card {
+        width: 50%;
+        height: auto;
+        max-width: 300px;
+        margin: 0 1em;
     }
 }
 
 @media (max-width: 991px) {
     #home-nav {
         display: none;
-    }
-    #mentor-container {
-        display: flex;
-        justify-content: center;
     }
 }
 
@@ -536,6 +570,6 @@ video {
     }
     #mentor-container {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
 }
