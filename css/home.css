@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@font-face {
-    font-family: 'alien_encounters_solidregular';
+@import url(https://allfont.net/allfont.css?fonts=alien-encounters-solid);
+/* @font-face {
+    font-family: 'Alien Encounters Solid';
     src: url('fonts/alien_encounters_solid_v1-webfont.woff2') format('woff2'), url('fonts/alien_encounters_solid_v1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'Allerta Stencil';
@@ -118,7 +119,7 @@ hr {
     text-align: center;
     color: #EEE;
     font-size: 4rem;
-    font-family: 'alien_encounters_solidregular';
+    font-family: 'Alien Encounters Solid';
 }
 
 .landing-container .btn {
@@ -211,7 +212,7 @@ video {
 }
 
 .our-robot-names {
-    font-family: "alien_encounters_solidregular";
+    font-family: "Alien Encounters Solid";
 }
 
 #our-robots-caption {
@@ -547,7 +548,7 @@ video {
         text-align: center;
         color: #EEE;
         font-size: 5rem !important;
-        font-family: 'alien_encounters_solidregular';
+        font-family: 'Alien Encounters Solid';
     }
     .landing-container h3 {
         color: #97999c;
