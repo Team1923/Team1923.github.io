@@ -252,7 +252,8 @@
             justify-content: center;
         }
         #main-nav li {
-            margin: 0 4em;
+            margin: 0 2em;
+            font-size: 1em;
         }
         .landing-title {
             margin-top: -0.3em;

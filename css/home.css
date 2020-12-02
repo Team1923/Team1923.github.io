@@ -509,7 +509,8 @@ video {
 
 @media (min-width: 992px) {
     #main-nav li {
-        margin: 0 4em;
+        margin: 0 2em;
+        font-size: 1em;
     }
     #center-nav {
         display: flex;
