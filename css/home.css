@@ -115,7 +115,7 @@ hr {
 #landing-title {
     margin-top: 1.25em;
     animation: landing-title-animation 0.8s;
-    text-align: center;
+    text-align: center; 
     color: #EEE;
     font-size: 4rem;
     font-family: 'alien_encounters_solidregular';
